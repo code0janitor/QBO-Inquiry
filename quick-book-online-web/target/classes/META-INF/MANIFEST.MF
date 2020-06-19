@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: quick-book-online-web
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Subhasish
+Implementation-Vendor-Id: code.janitor.qbo.web
+Build-Jdk: 1.8.0_91
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/quick-book-online/quick-book-online-web
+Created-By: Maven Integration for Eclipse
+

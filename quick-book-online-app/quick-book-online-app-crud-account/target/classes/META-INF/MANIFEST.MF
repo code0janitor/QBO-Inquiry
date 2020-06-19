@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: quick-book-online-app-crud-account
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Subhasish
+Implementation-Vendor-Id: code.janitor.qbo.app.crud.acct
+Build-Jdk: 1.8.0_91
+Implementation-URL: http://maven.apache.org
+Created-By: Maven Integration for Eclipse
+

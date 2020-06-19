@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>code.janitor.qbo.app</groupId>
+    <artifactId>quick-book-online-app</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>code.janitor.qbo.app.crud</groupId>
+  <artifactId>quick-book-online-app-crud</artifactId>
+  <name>quick-book-online-app-crud</name>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+   <dependencies>
+    <dependency>
+      <groupId>com.intuit.quickbooks-online</groupId>
+      <artifactId>ipp-v3-java-devkit</artifactId>
+      <classifier>jar-with-dependencies</classifier>
+      <version>4.1.0</version>
+ 	</dependency>
+ 	<dependency>
+      <groupId>com.intuit.quickbooks-online</groupId>
+      <artifactId>ipp-v3-java-data</artifactId>
+      <version>4.1.0</version>
+ 	</dependency>
+ 	<!-- for logging -->
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-log4j12</artifactId>
+	</dependency>
+   </dependencies>	
+   <build>
+    <finalName>quick-book-online-app-crud</finalName>
+  </build>
+</project>
